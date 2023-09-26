@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Spotify Profile</title>
+    <script src="src/script.js" type="module"></script>
+</head>
+<body>
+    <h1>Display your Spotify profile data</h1>
+
+    <section id="profile">
+        <h2>Logged in as <span id="displayName"></span></h2>
+        <span id="avatar"></span>
+        <ul>
+            <li>User ID: <span id="id"></span></li>
+            <li>Email: <span id="email"></span></li>
+            <li>Spotify URI: <a id="uri" href="#"></a></li>
+            <li>Link: <a id="url" href="#"></a></li>
+            <li>Profile Image: <span id="imgUrl"></span></li>
+        </ul>
+    </section>
+
+    <section id="topArtists">
+        <h2>Top Artists</h2>
+        <ul id="topArtistsList">
+            <li>Artist 1: <span id="artist1Id"></span></li>
+            <li>Artist 2: <span id="artist2Email"></span></li>
+            <li>Artist 3: <a id="artist3Uri" href="#"></a></li>
+            <li>Artist 4: <a id="artist4Url" href="#"></a></li>
+            <li>Artist 5: <span id="artist5ImgUrl"></span></li>
+        </ul>
+    </section>
+
+    <section id="topTracks">
+        <h2>Top Tracks</h2>
+        <ul id="topTracksList"></ul>
+    </section>
+</body>
+</html>
